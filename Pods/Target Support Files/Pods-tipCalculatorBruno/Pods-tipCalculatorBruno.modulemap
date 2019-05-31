@@ -1,0 +1,6 @@
+framework module Pods_tipCalculatorBruno {
+  umbrella header "Pods-tipCalculatorBruno-umbrella.h"
+
+  export *
+  module * { export * }
+}

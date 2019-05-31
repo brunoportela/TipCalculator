@@ -1,0 +1,1021 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0336C81C40377ACD4433BE6A67F4F3E0 /* UILabel+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 61831B1D4F768225784A8450842897F3 /* UILabel+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		033B6B31DDA7EC12A698D84D1BBA0132 /* UIView+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7505216FBC0751F9FE4D8A672BC28AF /* UIView+ChameleonPrivate.m */; };
+		038488857AD6213C6A5DFA93CAEC68A5 /* Pods-tipCalculatorBruno-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8730717EDAE6F4470B57F401D6B5CAAA /* Pods-tipCalculatorBruno-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A61472768C589EBA8445C4B4A39CA9D /* Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = D1824BFA2BD38023DE406F389A3D1BFB /* Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13EB08239D7611C2B40D1C1D38578CFB /* UIButton+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = B1254C83013B901296F902729660FAF7 /* UIButton+Chameleon.m */; };
+		14054DC3A3D7DFFBA317D33199C717DF /* UIAppearance+Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA1B362A4FFFAC246CCA17F168B758A /* UIAppearance+Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15C53A851BA128EB328652FCB7EC3BE5 /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8CF1F4EED93E61EB0C27313C93561C /* UIColor+ChameleonPrivate.m */; };
+		1A67E9F3D92C4770A9E9B5C4BDDCC26E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */; };
+		24B418B6BC098192B5F321422671B8CB /* UIAppearance+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = 068E191010E163A15BDE41DC8D96535B /* UIAppearance+Swift.m */; };
+		314A3D943C48BED101796B647874CD55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89163E94743FDDD60913C47150E225B /* UIKit.framework */; };
+		33346B08E9D03E7C8A3CE3EB503E0A73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C473026796F8AFAA2ECD5A761494CE /* CoreGraphics.framework */; };
+		385E30D02BB5DA9A94D2E3209F0F69B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */; };
+		3AA528A6C74ACB87BC3C01E5A1FD3AFE /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BF738EDD7040CB1DFB7CAF5686C6C7 /* UIColor+Chameleon.m */; };
+		3C1A7460FC8CA2298DA7F9CD0C63470F /* Chameleon_.h in Headers */ = {isa = PBXBuildFile; fileRef = C99D0B6A185542D1FD5E733885834DC8 /* Chameleon_.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C7BCD88D59FFF286411B7628EE66EC7 /* Pods-tipCalculatorBruno-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9989F32C26DDA88E84380331E338BA /* Pods-tipCalculatorBruno-dummy.m */; };
+		48F1470AB6BBF124094CA124D6310677 /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8225FCBCF9F1558B097D662990E144 /* UINavigationController+Chameleon.m */; };
+		493F116D2ACFF2D947E6F334FE73C1BC /* UILabel+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EED95C40A12BC3642B3B564E5FA67D /* UILabel+Chameleon.m */; };
+		4CA47DA355F9B3E4A3917388D70B9250 /* UIColor+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 3935A7BAE2AAE327D930A7125A4BA2E9 /* UIColor+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E27F2292740DCDC63080D90BD7F7163 /* Chameleon_.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEA5ADB422E7FFEB6B33939E6F91541 /* Chameleon_.m */; };
+		5CADD0254C8442F94E51AA85E4310D25 /* UIViewController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D374825A5900B841DB711FC152B01F /* UIViewController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66130FDE8FEDDD3AE44E9CB237EC19DD /* ChameleonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24EEDF5FE05A2DD431C3890EB77687 /* ChameleonConstants.m */; };
+		70297ABF69F651EAF8E5F968E3811211 /* ChameleonFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C961E096D36D6642C5DD9C6B6716C7F9 /* ChameleonFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7230498DCC8F6020F23E7595E2F1E792 /* UIView+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 66451F028A524A7A23A3E4EA4750BA00 /* UIView+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ACBD275F7DCAC8120F3D0F4959FDA33 /* UIButton+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = F3E2FEB38E6038FDD5781E843A8145B9 /* UIButton+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E4BFB7CFC09258C22A18B4AB4C331DB /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F253326646AD6ED7795BF7D602964D /* NSArray+Chameleon.m */; };
+		A7790FC11C4B72C453EA87FC0DA6C56C /* Pods-tipCalculatorBrunoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D5E33810D0B804A3A3330B1FF0393B /* Pods-tipCalculatorBrunoTests-dummy.m */; };
+		A9C15871C716A657247FBE5AB24A5965 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */; };
+		BC7F0688B8256FBF7C467493E6BB5169 /* NSArray+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B0933D5B498B1C4F118F98FF427206D /* NSArray+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD54D3977DB4BC983C34B909EC2A10C5 /* UIColor+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EFDA24B0389C7A1B48A02E47A981F34 /* UIColor+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C082D72BC2DBD1E4862A8FFFC51B6AC2 /* UINavigationController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 149EF46A6ED58A85E707E96DB0E53EB0 /* UINavigationController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C547137953719CFBC4979DF3B2083A6E /* ChameleonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AA7A7E9B2C06EC6A428C8EE50B61117 /* ChameleonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5E06DAEE5EFC75FD87B9424177150DF /* UIImage+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 95D8665AAE5703A09BAFE8FABE31DBB5 /* UIImage+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA1F2293A739DCA6069FBD0A087D6A96 /* ChameleonConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 2779AF84806DD297C3849867BB971C93 /* ChameleonConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC76A6C9CA4CCF7A19EF91395F23F150 /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F74AC43026F1EECC81C13D4D2941B7 /* UIImage+ChameleonPrivate.m */; };
+		CF38A79918A2EF6CFA2E17A5EDA07407 /* Pods-tipCalculatorBrunoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96C605EA91DF895784A4C9A618FCF785 /* Pods-tipCalculatorBrunoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFF3176D50033026C5D004BD3D4EE0B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */; };
+		D2ED0AF6C6C1EF809C9079E364F7D68F /* ChameleonEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 50525E1CE5324BDA62337B2CA5CFA6F3 /* ChameleonEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEFDA50FA768895B63F70BF485D15524 /* Pods-tipCalculatorBrunoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9460B2CF7790FB6DBAA61417252E9848 /* Pods-tipCalculatorBrunoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E32E517D4F96192E148A0708F1D1AF8A /* Pods-tipCalculatorBrunoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B6B9386CF8AA26B4D1B7C3D4C4DA94 /* Pods-tipCalculatorBrunoUITests-dummy.m */; };
+		F5B013B408C8D31CCC0E67A181F9DB7A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65E433A68C225D6FF6B2CE970853F1D /* QuartzCore.framework */; };
+		FB48DC5ECBAB973160FC8537433D13B4 /* ChameleonFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B49F31B57C01949D195ED2B9F989B9 /* ChameleonFramework-dummy.m */; };
+		FB6D49D3E7CF33EDA4DA16B521B6369C /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = E49C00518C8EAB6FDB13FB2FDC15BDBC /* UIViewController+Chameleon.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04D0027879F992A01C01F0B35D793CCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A267660E1AD4832DE75665F2F87AEA3;
+			remoteInfo = ChameleonFramework;
+		};
+		6CADA3441131E4ECB0768ACA07B2D95B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDAC38AD4643F1BC4E68DD206A6342B6;
+			remoteInfo = "Pods-tipCalculatorBruno";
+		};
+		C20DB76479316753D520FDCBCAE041C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDAC38AD4643F1BC4E68DD206A6342B6;
+			remoteInfo = "Pods-tipCalculatorBruno";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0418008EAFABD595FDF2E4206BA04096 /* Pods-tipCalculatorBrunoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tipCalculatorBrunoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		044A63A5B9391D990D3BF914563B48F2 /* Pods-tipCalculatorBrunoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tipCalculatorBrunoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		068E191010E163A15BDE41DC8D96535B /* UIAppearance+Swift.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAppearance+Swift.m"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.m"; sourceTree = "<group>"; };
+		149EF46A6ED58A85E707E96DB0E53EB0 /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Chameleon.h"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
+		1AA7A7E9B2C06EC6A428C8EE50B61117 /* ChameleonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonMacros.h; path = "Pod/Classes/Objective-C/ChameleonMacros.h"; sourceTree = "<group>"; };
+		262DBA4B70750AFECA185B711FA46636 /* Pods-tipCalculatorBruno.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-tipCalculatorBruno.modulemap"; sourceTree = "<group>"; };
+		2779AF84806DD297C3849867BB971C93 /* ChameleonConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonConstants.h; path = "Pod/Classes/Objective-C/ChameleonConstants.h"; sourceTree = "<group>"; };
+		28D5E33810D0B804A3A3330B1FF0393B /* Pods-tipCalculatorBrunoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tipCalculatorBrunoTests-dummy.m"; sourceTree = "<group>"; };
+		2EFDA24B0389C7A1B48A02E47A981F34 /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		30DE1B8951EF5BC39E2DD9BC30E35561 /* Pods_tipCalculatorBruno.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tipCalculatorBruno.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C473026796F8AFAA2ECD5A761494CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		3935A7BAE2AAE327D930A7125A4BA2E9 /* UIColor+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Chameleon.h"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		3B0933D5B498B1C4F118F98FF427206D /* NSArray+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Chameleon.h"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.h"; sourceTree = "<group>"; };
+		478486D3C4C526153EA0A76766EA5F77 /* Pods-tipCalculatorBrunoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tipCalculatorBrunoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		47F74AC43026F1EECC81C13D4D2941B7 /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		48852B4895019DF9BB5071A688561D68 /* Pods_tipCalculatorBrunoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tipCalculatorBrunoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C76A60D9C24B639AA8A84E9B8569A06 /* Pods-tipCalculatorBrunoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tipCalculatorBrunoUITests-resources.sh"; sourceTree = "<group>"; };
+		50525E1CE5324BDA62337B2CA5CFA6F3 /* ChameleonEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonEnums.h; path = "Pod/Classes/Objective-C/ChameleonEnums.h"; sourceTree = "<group>"; };
+		53A022EE016753620C48F373D3944F2F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		579F3BA7D8C615D7FCEA315A1FBB755A /* Pods-tipCalculatorBrunoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-tipCalculatorBrunoTests.modulemap"; sourceTree = "<group>"; };
+		5F3CF904917C7415F9A5E6A36FB3790B /* ChameleonFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChameleonFramework.modulemap; sourceTree = "<group>"; };
+		61831B1D4F768225784A8450842897F3 /* UILabel+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Chameleon.h"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.h"; sourceTree = "<group>"; };
+		66451F028A524A7A23A3E4EA4750BA00 /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		6F73CFE61CA29661180D56CB4EF3C198 /* Pods-tipCalculatorBrunoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tipCalculatorBrunoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		70BF738EDD7040CB1DFB7CAF5686C6C7 /* UIColor+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Chameleon.m"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		71EA316D0E17869B9301D92AD0F59334 /* Pods_tipCalculatorBrunoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tipCalculatorBrunoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71EED95C40A12BC3642B3B564E5FA67D /* UILabel+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Chameleon.m"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.m"; sourceTree = "<group>"; };
+		72B6B9386CF8AA26B4D1B7C3D4C4DA94 /* Pods-tipCalculatorBrunoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tipCalculatorBrunoUITests-dummy.m"; sourceTree = "<group>"; };
+		7E8225FCBCF9F1558B097D662990E144 /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Chameleon.m"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
+		7EEA5ADB422E7FFEB6B33939E6F91541 /* Chameleon_.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Chameleon_.m; path = "Pod/Classes/Objective-C/Chameleon_.m"; sourceTree = "<group>"; };
+		7FA1B362A4FFFAC246CCA17F168B758A /* UIAppearance+Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAppearance+Swift.h"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.h"; sourceTree = "<group>"; };
+		81A86F9A7F30B477491415ECD9F07FF8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8658454D088302F85215297F6E40A741 /* Pods-tipCalculatorBrunoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tipCalculatorBrunoTests.release.xcconfig"; sourceTree = "<group>"; };
+		8730717EDAE6F4470B57F401D6B5CAAA /* Pods-tipCalculatorBruno-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tipCalculatorBruno-umbrella.h"; sourceTree = "<group>"; };
+		91A8B0BC392DCD254B249D3B2FA4D7DF /* Pods-tipCalculatorBrunoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tipCalculatorBrunoTests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9460B2CF7790FB6DBAA61417252E9848 /* Pods-tipCalculatorBrunoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tipCalculatorBrunoTests-umbrella.h"; sourceTree = "<group>"; };
+		95D8665AAE5703A09BAFE8FABE31DBB5 /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		96C605EA91DF895784A4C9A618FCF785 /* Pods-tipCalculatorBrunoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tipCalculatorBrunoUITests-umbrella.h"; sourceTree = "<group>"; };
+		9B24EEDF5FE05A2DD431C3890EB77687 /* ChameleonConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChameleonConstants.m; path = "Pod/Classes/Objective-C/ChameleonConstants.m"; sourceTree = "<group>"; };
+		9D8CF1F4EED93E61EB0C27313C93561C /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		9E4E7EB9EC1ECF4F5E425A583B8FDCE0 /* Pods-tipCalculatorBruno-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tipCalculatorBruno-frameworks.sh"; sourceTree = "<group>"; };
+		A7505216FBC0751F9FE4D8A672BC28AF /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		A80C42E10C1765B293CEDD81BE0BA3BD /* Pods-tipCalculatorBrunoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-tipCalculatorBrunoUITests.modulemap"; sourceTree = "<group>"; };
+		AF9989F32C26DDA88E84380331E338BA /* Pods-tipCalculatorBruno-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tipCalculatorBruno-dummy.m"; sourceTree = "<group>"; };
+		B09C2C65112ADD2EFC490A2BB639FF3C /* Pods-tipCalculatorBrunoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tipCalculatorBrunoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B1254C83013B901296F902729660FAF7 /* UIButton+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Chameleon.m"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.m"; sourceTree = "<group>"; };
+		B5F10DB3A82C81D4595685CC812FA727 /* ChameleonFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-prefix.pch"; sourceTree = "<group>"; };
+		B65E433A68C225D6FF6B2CE970853F1D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		B6F253326646AD6ED7795BF7D602964D /* NSArray+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Chameleon.m"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.m"; sourceTree = "<group>"; };
+		BD5631FB16DDB0C2CAAEC65F91C6C000 /* Pods-tipCalculatorBruno-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tipCalculatorBruno-acknowledgements.plist"; sourceTree = "<group>"; };
+		BF20C5A7CD1A017C14E30E77DA2CD46D /* Pods-tipCalculatorBrunoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tipCalculatorBrunoTests-resources.sh"; sourceTree = "<group>"; };
+		C0ADE0115549FA409B35F7E773146F8B /* Pods-tipCalculatorBruno.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tipCalculatorBruno.debug.xcconfig"; sourceTree = "<group>"; };
+		C961E096D36D6642C5DD9C6B6716C7F9 /* ChameleonFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-umbrella.h"; sourceTree = "<group>"; };
+		C99D0B6A185542D1FD5E733885834DC8 /* Chameleon_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon_.h; path = "Pod/Classes/Objective-C/Chameleon_.h"; sourceTree = "<group>"; };
+		CBA4AC912748AC17849CB18890B457C1 /* ChameleonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChameleonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1824BFA2BD38023DE406F389A3D1BFB /* Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = "Pod/Classes/Objective-C/Chameleon.h"; sourceTree = "<group>"; };
+		D4A657FBE24DDEC5169DB0C682C7913C /* Pods-tipCalculatorBrunoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tipCalculatorBrunoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D4A8BD8B054DDBE5ED7DA20A05CB9762 /* Pods-tipCalculatorBruno-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tipCalculatorBruno-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DC0538B5F705A67481CE0F07D48D7FF1 /* Pods-tipCalculatorBruno.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tipCalculatorBruno.release.xcconfig"; sourceTree = "<group>"; };
+		DDC725C5C65E9F53E5D976AA5E27746E /* Pods-tipCalculatorBrunoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tipCalculatorBrunoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E49C00518C8EAB6FDB13FB2FDC15BDBC /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Chameleon.m"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.m"; sourceTree = "<group>"; };
+		E7D374825A5900B841DB711FC152B01F /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Chameleon.h"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.h"; sourceTree = "<group>"; };
+		E89163E94743FDDD60913C47150E225B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E8B49F31B57C01949D195ED2B9F989B9 /* ChameleonFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChameleonFramework-dummy.m"; sourceTree = "<group>"; };
+		EC2EBE7D549842EF84DB0D6C29EBE862 /* Pods-tipCalculatorBruno-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tipCalculatorBruno-resources.sh"; sourceTree = "<group>"; };
+		F1792FE0222B290353274925CE097AB4 /* Pods-tipCalculatorBrunoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tipCalculatorBrunoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F3E2FEB38E6038FDD5781E843A8145B9 /* UIButton+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Chameleon.h"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.h"; sourceTree = "<group>"; };
+		F62F0545205D9CFB12AD398C234CC9C8 /* ChameleonFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChameleonFramework.xcconfig; sourceTree = "<group>"; };
+		F788F8177CA137B2226F137CD2E8E964 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7F91E8549781FA9810EA75D91A411D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07B68EDC1F350C4024B4BE86C60C870E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A67E9F3D92C4770A9E9B5C4BDDCC26E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C86E1D7CD1DEA99FCFC81586F21A3B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33346B08E9D03E7C8A3CE3EB503E0A73 /* CoreGraphics.framework in Frameworks */,
+				A9C15871C716A657247FBE5AB24A5965 /* Foundation.framework in Frameworks */,
+				F5B013B408C8D31CCC0E67A181F9DB7A /* QuartzCore.framework in Frameworks */,
+				314A3D943C48BED101796B647874CD55 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BC807933D954FB1F86830FAD593420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF3176D50033026C5D004BD3D4EE0B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF03A66569515BCFC8AC3DA8978D565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385E30D02BB5DA9A94D2E3209F0F69B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53C8B4AB97860F06FE722851EA867B18 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1798ED779BE9C6C92785CEFC2BAF38D5 /* Pods-tipCalculatorBruno */ = {
+			isa = PBXGroup;
+			children = (
+				53A022EE016753620C48F373D3944F2F /* Info.plist */,
+				262DBA4B70750AFECA185B711FA46636 /* Pods-tipCalculatorBruno.modulemap */,
+				D4A8BD8B054DDBE5ED7DA20A05CB9762 /* Pods-tipCalculatorBruno-acknowledgements.markdown */,
+				BD5631FB16DDB0C2CAAEC65F91C6C000 /* Pods-tipCalculatorBruno-acknowledgements.plist */,
+				AF9989F32C26DDA88E84380331E338BA /* Pods-tipCalculatorBruno-dummy.m */,
+				9E4E7EB9EC1ECF4F5E425A583B8FDCE0 /* Pods-tipCalculatorBruno-frameworks.sh */,
+				EC2EBE7D549842EF84DB0D6C29EBE862 /* Pods-tipCalculatorBruno-resources.sh */,
+				8730717EDAE6F4470B57F401D6B5CAAA /* Pods-tipCalculatorBruno-umbrella.h */,
+				C0ADE0115549FA409B35F7E773146F8B /* Pods-tipCalculatorBruno.debug.xcconfig */,
+				DC0538B5F705A67481CE0F07D48D7FF1 /* Pods-tipCalculatorBruno.release.xcconfig */,
+			);
+			name = "Pods-tipCalculatorBruno";
+			path = "Target Support Files/Pods-tipCalculatorBruno";
+			sourceTree = "<group>";
+		};
+		1D815F110C09CC7E94FF6958E14042CE /* Pods-tipCalculatorBrunoTests */ = {
+			isa = PBXGroup;
+			children = (
+				81A86F9A7F30B477491415ECD9F07FF8 /* Info.plist */,
+				579F3BA7D8C615D7FCEA315A1FBB755A /* Pods-tipCalculatorBrunoTests.modulemap */,
+				D4A657FBE24DDEC5169DB0C682C7913C /* Pods-tipCalculatorBrunoTests-acknowledgements.markdown */,
+				DDC725C5C65E9F53E5D976AA5E27746E /* Pods-tipCalculatorBrunoTests-acknowledgements.plist */,
+				28D5E33810D0B804A3A3330B1FF0393B /* Pods-tipCalculatorBrunoTests-dummy.m */,
+				91A8B0BC392DCD254B249D3B2FA4D7DF /* Pods-tipCalculatorBrunoTests-frameworks.sh */,
+				BF20C5A7CD1A017C14E30E77DA2CD46D /* Pods-tipCalculatorBrunoTests-resources.sh */,
+				9460B2CF7790FB6DBAA61417252E9848 /* Pods-tipCalculatorBrunoTests-umbrella.h */,
+				478486D3C4C526153EA0A76766EA5F77 /* Pods-tipCalculatorBrunoTests.debug.xcconfig */,
+				8658454D088302F85215297F6E40A741 /* Pods-tipCalculatorBrunoTests.release.xcconfig */,
+			);
+			name = "Pods-tipCalculatorBrunoTests";
+			path = "Target Support Files/Pods-tipCalculatorBrunoTests";
+			sourceTree = "<group>";
+		};
+		2CA12CBB680FD391BCA87DAC5763499B /* Pods-tipCalculatorBrunoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7F91E8549781FA9810EA75D91A411D8 /* Info.plist */,
+				A80C42E10C1765B293CEDD81BE0BA3BD /* Pods-tipCalculatorBrunoUITests.modulemap */,
+				044A63A5B9391D990D3BF914563B48F2 /* Pods-tipCalculatorBrunoUITests-acknowledgements.markdown */,
+				B09C2C65112ADD2EFC490A2BB639FF3C /* Pods-tipCalculatorBrunoUITests-acknowledgements.plist */,
+				72B6B9386CF8AA26B4D1B7C3D4C4DA94 /* Pods-tipCalculatorBrunoUITests-dummy.m */,
+				0418008EAFABD595FDF2E4206BA04096 /* Pods-tipCalculatorBrunoUITests-frameworks.sh */,
+				4C76A60D9C24B639AA8A84E9B8569A06 /* Pods-tipCalculatorBrunoUITests-resources.sh */,
+				96C605EA91DF895784A4C9A618FCF785 /* Pods-tipCalculatorBrunoUITests-umbrella.h */,
+				6F73CFE61CA29661180D56CB4EF3C198 /* Pods-tipCalculatorBrunoUITests.debug.xcconfig */,
+				F1792FE0222B290353274925CE097AB4 /* Pods-tipCalculatorBrunoUITests.release.xcconfig */,
+			);
+			name = "Pods-tipCalculatorBrunoUITests";
+			path = "Target Support Files/Pods-tipCalculatorBrunoUITests";
+			sourceTree = "<group>";
+		};
+		462B44C6D31E7F994D14471F42765A79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49525E1FEE92C6AB2C529F8D7AAD2EEC /* ChameleonFramework */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		49525E1FEE92C6AB2C529F8D7AAD2EEC /* ChameleonFramework */ = {
+			isa = PBXGroup;
+			children = (
+				6200A8EF39DDD2A7189FEDAB17FD7E8A /* Default */,
+				87035BAF8D6CC0F69F92ADE88D10941D /* Support Files */,
+			);
+			path = ChameleonFramework;
+			sourceTree = "<group>";
+		};
+		53C8B4AB97860F06FE722851EA867B18 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				37C473026796F8AFAA2ECD5A761494CE /* CoreGraphics.framework */,
+				D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */,
+				B65E433A68C225D6FF6B2CE970853F1D /* QuartzCore.framework */,
+				E89163E94743FDDD60913C47150E225B /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6200A8EF39DDD2A7189FEDAB17FD7E8A /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				D1824BFA2BD38023DE406F389A3D1BFB /* Chameleon.h */,
+				C99D0B6A185542D1FD5E733885834DC8 /* Chameleon_.h */,
+				7EEA5ADB422E7FFEB6B33939E6F91541 /* Chameleon_.m */,
+				2779AF84806DD297C3849867BB971C93 /* ChameleonConstants.h */,
+				9B24EEDF5FE05A2DD431C3890EB77687 /* ChameleonConstants.m */,
+				50525E1CE5324BDA62337B2CA5CFA6F3 /* ChameleonEnums.h */,
+				1AA7A7E9B2C06EC6A428C8EE50B61117 /* ChameleonMacros.h */,
+				3B0933D5B498B1C4F118F98FF427206D /* NSArray+Chameleon.h */,
+				B6F253326646AD6ED7795BF7D602964D /* NSArray+Chameleon.m */,
+				7FA1B362A4FFFAC246CCA17F168B758A /* UIAppearance+Swift.h */,
+				068E191010E163A15BDE41DC8D96535B /* UIAppearance+Swift.m */,
+				F3E2FEB38E6038FDD5781E843A8145B9 /* UIButton+Chameleon.h */,
+				B1254C83013B901296F902729660FAF7 /* UIButton+Chameleon.m */,
+				3935A7BAE2AAE327D930A7125A4BA2E9 /* UIColor+Chameleon.h */,
+				70BF738EDD7040CB1DFB7CAF5686C6C7 /* UIColor+Chameleon.m */,
+				2EFDA24B0389C7A1B48A02E47A981F34 /* UIColor+ChameleonPrivate.h */,
+				9D8CF1F4EED93E61EB0C27313C93561C /* UIColor+ChameleonPrivate.m */,
+				95D8665AAE5703A09BAFE8FABE31DBB5 /* UIImage+ChameleonPrivate.h */,
+				47F74AC43026F1EECC81C13D4D2941B7 /* UIImage+ChameleonPrivate.m */,
+				61831B1D4F768225784A8450842897F3 /* UILabel+Chameleon.h */,
+				71EED95C40A12BC3642B3B564E5FA67D /* UILabel+Chameleon.m */,
+				149EF46A6ED58A85E707E96DB0E53EB0 /* UINavigationController+Chameleon.h */,
+				7E8225FCBCF9F1558B097D662990E144 /* UINavigationController+Chameleon.m */,
+				66451F028A524A7A23A3E4EA4750BA00 /* UIView+ChameleonPrivate.h */,
+				A7505216FBC0751F9FE4D8A672BC28AF /* UIView+ChameleonPrivate.m */,
+				E7D374825A5900B841DB711FC152B01F /* UIViewController+Chameleon.h */,
+				E49C00518C8EAB6FDB13FB2FDC15BDBC /* UIViewController+Chameleon.m */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		6E4B7D4147FE75FD7E2BA05781F4D71C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBA4AC912748AC17849CB18890B457C1 /* ChameleonFramework.framework */,
+				30DE1B8951EF5BC39E2DD9BC30E35561 /* Pods_tipCalculatorBruno.framework */,
+				48852B4895019DF9BB5071A688561D68 /* Pods_tipCalculatorBrunoTests.framework */,
+				71EA316D0E17869B9301D92AD0F59334 /* Pods_tipCalculatorBrunoUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				462B44C6D31E7F994D14471F42765A79 /* Pods */,
+				6E4B7D4147FE75FD7E2BA05781F4D71C /* Products */,
+				D1BCA3501E389B85CB6C74B94BC6FDBB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87035BAF8D6CC0F69F92ADE88D10941D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F3CF904917C7415F9A5E6A36FB3790B /* ChameleonFramework.modulemap */,
+				F62F0545205D9CFB12AD398C234CC9C8 /* ChameleonFramework.xcconfig */,
+				E8B49F31B57C01949D195ED2B9F989B9 /* ChameleonFramework-dummy.m */,
+				B5F10DB3A82C81D4595685CC812FA727 /* ChameleonFramework-prefix.pch */,
+				C961E096D36D6642C5DD9C6B6716C7F9 /* ChameleonFramework-umbrella.h */,
+				F788F8177CA137B2226F137CD2E8E964 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ChameleonFramework";
+			sourceTree = "<group>";
+		};
+		D1BCA3501E389B85CB6C74B94BC6FDBB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1798ED779BE9C6C92785CEFC2BAF38D5 /* Pods-tipCalculatorBruno */,
+				1D815F110C09CC7E94FF6958E14042CE /* Pods-tipCalculatorBrunoTests */,
+				2CA12CBB680FD391BCA87DAC5763499B /* Pods-tipCalculatorBrunoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		004302C1F6D2542DDD52753708F70DEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A61472768C589EBA8445C4B4A39CA9D /* Chameleon.h in Headers */,
+				3C1A7460FC8CA2298DA7F9CD0C63470F /* Chameleon_.h in Headers */,
+				CA1F2293A739DCA6069FBD0A087D6A96 /* ChameleonConstants.h in Headers */,
+				D2ED0AF6C6C1EF809C9079E364F7D68F /* ChameleonEnums.h in Headers */,
+				70297ABF69F651EAF8E5F968E3811211 /* ChameleonFramework-umbrella.h in Headers */,
+				C547137953719CFBC4979DF3B2083A6E /* ChameleonMacros.h in Headers */,
+				BC7F0688B8256FBF7C467493E6BB5169 /* NSArray+Chameleon.h in Headers */,
+				14054DC3A3D7DFFBA317D33199C717DF /* UIAppearance+Swift.h in Headers */,
+				7ACBD275F7DCAC8120F3D0F4959FDA33 /* UIButton+Chameleon.h in Headers */,
+				4CA47DA355F9B3E4A3917388D70B9250 /* UIColor+Chameleon.h in Headers */,
+				BD54D3977DB4BC983C34B909EC2A10C5 /* UIColor+ChameleonPrivate.h in Headers */,
+				C5E06DAEE5EFC75FD87B9424177150DF /* UIImage+ChameleonPrivate.h in Headers */,
+				0336C81C40377ACD4433BE6A67F4F3E0 /* UILabel+Chameleon.h in Headers */,
+				C082D72BC2DBD1E4862A8FFFC51B6AC2 /* UINavigationController+Chameleon.h in Headers */,
+				7230498DCC8F6020F23E7595E2F1E792 /* UIView+ChameleonPrivate.h in Headers */,
+				5CADD0254C8442F94E51AA85E4310D25 /* UIViewController+Chameleon.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16E4D28BF004D60F6EA668571272C0FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF38A79918A2EF6CFA2E17A5EDA07407 /* Pods-tipCalculatorBrunoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62C5E7AF2D352114D2CA3FE194694EF3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEFDA50FA768895B63F70BF485D15524 /* Pods-tipCalculatorBrunoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E41D6E025CACE50788DDD802A367B0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038488857AD6213C6A5DFA93CAEC68A5 /* Pods-tipCalculatorBruno-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		86269728B3187CF77B2BB5876E9B58BF /* Pods-tipCalculatorBrunoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7B39314EB011B0E912E2A818AEC1DDF /* Build configuration list for PBXNativeTarget "Pods-tipCalculatorBrunoTests" */;
+			buildPhases = (
+				1CD331089E4E23650E2795BDEEA5129E /* Sources */,
+				07B68EDC1F350C4024B4BE86C60C870E /* Frameworks */,
+				62C5E7AF2D352114D2CA3FE194694EF3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52D37A8E9DC7EABDC7012B082507D5FC /* PBXTargetDependency */,
+			);
+			name = "Pods-tipCalculatorBrunoTests";
+			productName = "Pods-tipCalculatorBrunoTests";
+			productReference = 48852B4895019DF9BB5071A688561D68 /* Pods_tipCalculatorBrunoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A267660E1AD4832DE75665F2F87AEA3 /* ChameleonFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20F92F171610CEDDAF86937C97E37425 /* Build configuration list for PBXNativeTarget "ChameleonFramework" */;
+			buildPhases = (
+				B085389184CF3DA13A3872C3F78FF2F3 /* Sources */,
+				3C86E1D7CD1DEA99FCFC81586F21A3B5 /* Frameworks */,
+				004302C1F6D2542DDD52753708F70DEC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChameleonFramework;
+			productName = ChameleonFramework;
+			productReference = CBA4AC912748AC17849CB18890B457C1 /* ChameleonFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9160A39F3CE6097A25720A955EC9029E /* Pods-tipCalculatorBrunoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F8999E79B8595E13708E975B5D947D0 /* Build configuration list for PBXNativeTarget "Pods-tipCalculatorBrunoUITests" */;
+			buildPhases = (
+				7F80613A8CC5211631B956382C05F268 /* Sources */,
+				7BF03A66569515BCFC8AC3DA8978D565 /* Frameworks */,
+				16E4D28BF004D60F6EA668571272C0FF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D289A20C7FEBB6101811E0B950D5616 /* PBXTargetDependency */,
+			);
+			name = "Pods-tipCalculatorBrunoUITests";
+			productName = "Pods-tipCalculatorBrunoUITests";
+			productReference = 71EA316D0E17869B9301D92AD0F59334 /* Pods_tipCalculatorBrunoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDAC38AD4643F1BC4E68DD206A6342B6 /* Pods-tipCalculatorBruno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD9186DB299CB3D8988551C0974B62D5 /* Build configuration list for PBXNativeTarget "Pods-tipCalculatorBruno" */;
+			buildPhases = (
+				6FAF636D4B7FC0951EF1FE8463F2C48E /* Sources */,
+				66BC807933D954FB1F86830FAD593420 /* Frameworks */,
+				8E41D6E025CACE50788DDD802A367B0A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D7A36412419555B0C922AE8FE1E532B /* PBXTargetDependency */,
+			);
+			name = "Pods-tipCalculatorBruno";
+			productName = "Pods-tipCalculatorBruno";
+			productReference = 30DE1B8951EF5BC39E2DD9BC30E35561 /* Pods_tipCalculatorBruno.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6E4B7D4147FE75FD7E2BA05781F4D71C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A267660E1AD4832DE75665F2F87AEA3 /* ChameleonFramework */,
+				DDAC38AD4643F1BC4E68DD206A6342B6 /* Pods-tipCalculatorBruno */,
+				86269728B3187CF77B2BB5876E9B58BF /* Pods-tipCalculatorBrunoTests */,
+				9160A39F3CE6097A25720A955EC9029E /* Pods-tipCalculatorBrunoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CD331089E4E23650E2795BDEEA5129E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7790FC11C4B72C453EA87FC0DA6C56C /* Pods-tipCalculatorBrunoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAF636D4B7FC0951EF1FE8463F2C48E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7BCD88D59FFF286411B7628EE66EC7 /* Pods-tipCalculatorBruno-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F80613A8CC5211631B956382C05F268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32E517D4F96192E148A0708F1D1AF8A /* Pods-tipCalculatorBrunoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B085389184CF3DA13A3872C3F78FF2F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E27F2292740DCDC63080D90BD7F7163 /* Chameleon_.m in Sources */,
+				66130FDE8FEDDD3AE44E9CB237EC19DD /* ChameleonConstants.m in Sources */,
+				FB48DC5ECBAB973160FC8537433D13B4 /* ChameleonFramework-dummy.m in Sources */,
+				9E4BFB7CFC09258C22A18B4AB4C331DB /* NSArray+Chameleon.m in Sources */,
+				24B418B6BC098192B5F321422671B8CB /* UIAppearance+Swift.m in Sources */,
+				13EB08239D7611C2B40D1C1D38578CFB /* UIButton+Chameleon.m in Sources */,
+				3AA528A6C74ACB87BC3C01E5A1FD3AFE /* UIColor+Chameleon.m in Sources */,
+				15C53A851BA128EB328652FCB7EC3BE5 /* UIColor+ChameleonPrivate.m in Sources */,
+				CC76A6C9CA4CCF7A19EF91395F23F150 /* UIImage+ChameleonPrivate.m in Sources */,
+				493F116D2ACFF2D947E6F334FE73C1BC /* UILabel+Chameleon.m in Sources */,
+				48F1470AB6BBF124094CA124D6310677 /* UINavigationController+Chameleon.m in Sources */,
+				033B6B31DDA7EC12A698D84D1BBA0132 /* UIView+ChameleonPrivate.m in Sources */,
+				FB6D49D3E7CF33EDA4DA16B521B6369C /* UIViewController+Chameleon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D289A20C7FEBB6101811E0B950D5616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-tipCalculatorBruno";
+			target = DDAC38AD4643F1BC4E68DD206A6342B6 /* Pods-tipCalculatorBruno */;
+			targetProxy = C20DB76479316753D520FDCBCAE041C2 /* PBXContainerItemProxy */;
+		};
+		4D7A36412419555B0C922AE8FE1E532B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChameleonFramework;
+			target = 8A267660E1AD4832DE75665F2F87AEA3 /* ChameleonFramework */;
+			targetProxy = 04D0027879F992A01C01F0B35D793CCC /* PBXContainerItemProxy */;
+		};
+		52D37A8E9DC7EABDC7012B082507D5FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-tipCalculatorBruno";
+			target = DDAC38AD4643F1BC4E68DD206A6342B6 /* Pods-tipCalculatorBruno */;
+			targetProxy = 6CADA3441131E4ECB0768ACA07B2D95B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C7284A59EF8149A8E343D71396C10F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1792FE0222B290353274925CE097AB4 /* Pods-tipCalculatorBrunoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-tipCalculatorBrunoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tipCalculatorBrunoUITests/Pods-tipCalculatorBrunoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		572827BE826177A52B0468ED280515B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC0538B5F705A67481CE0F07D48D7FF1 /* Pods-tipCalculatorBruno.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-tipCalculatorBruno/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tipCalculatorBruno/Pods-tipCalculatorBruno.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		694C197D7E36BC646B708C0BA07BEC4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F73CFE61CA29661180D56CB4EF3C198 /* Pods-tipCalculatorBrunoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-tipCalculatorBrunoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tipCalculatorBrunoUITests/Pods-tipCalculatorBrunoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E7F7B28D2541A61C5DCCFA7A0A98176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8658454D088302F85215297F6E40A741 /* Pods-tipCalculatorBrunoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-tipCalculatorBrunoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tipCalculatorBrunoTests/Pods-tipCalculatorBrunoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB5403C2ACCBA6BE6383133FD7F8775A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62F0545205D9CFB12AD398C234CC9C8 /* ChameleonFramework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChameleonFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
+				PRODUCT_MODULE_NAME = ChameleonFramework;
+				PRODUCT_NAME = ChameleonFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BBAC37D514BB2DB447482C79DAB44B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0ADE0115549FA409B35F7E773146F8B /* Pods-tipCalculatorBruno.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-tipCalculatorBruno/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tipCalculatorBruno/Pods-tipCalculatorBruno.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C45A65CF9EE8002B29E2F823E6A31109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 478486D3C4C526153EA0A76766EA5F77 /* Pods-tipCalculatorBrunoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-tipCalculatorBrunoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tipCalculatorBrunoTests/Pods-tipCalculatorBrunoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D79BAE37298B16A0958364143EB6520B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62F0545205D9CFB12AD398C234CC9C8 /* ChameleonFramework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChameleonFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
+				PRODUCT_MODULE_NAME = ChameleonFramework;
+				PRODUCT_NAME = ChameleonFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20F92F171610CEDDAF86937C97E37425 /* Build configuration list for PBXNativeTarget "ChameleonFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5403C2ACCBA6BE6383133FD7F8775A /* Debug */,
+				D79BAE37298B16A0958364143EB6520B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F8999E79B8595E13708E975B5D947D0 /* Build configuration list for PBXNativeTarget "Pods-tipCalculatorBrunoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				694C197D7E36BC646B708C0BA07BEC4E /* Debug */,
+				0C7284A59EF8149A8E343D71396C10F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD9186DB299CB3D8988551C0974B62D5 /* Build configuration list for PBXNativeTarget "Pods-tipCalculatorBruno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBAC37D514BB2DB447482C79DAB44B2E /* Debug */,
+				572827BE826177A52B0468ED280515B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7B39314EB011B0E912E2A818AEC1DDF /* Build configuration list for PBXNativeTarget "Pods-tipCalculatorBrunoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45A65CF9EE8002B29E2F823E6A31109 /* Debug */,
+				6E7F7B28D2541A61C5DCCFA7A0A98176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
